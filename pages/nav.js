@@ -12,7 +12,7 @@ function Navbar () {
 
 
 	return (
-        <nav className=" fixed w-full z-10 bg-transparent text-black">
+        <nav className=" fixed w-full z-10 bg-white text-black">
             <div className="w-full">
                 <div className="flex items-center h-20 w-full">
                     <div className="flex items-center  mx-20  justify-between w-full">
@@ -94,7 +94,7 @@ function Navbar () {
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             type="button"
-                            className=" inline-flex items-center justify-center p-2 rounded-md text-black  dark:text-white font-bold hover:text-cyan-500 focus:outline-none "
+                            className=" inline-flex items-center justify-center p-2 rounded-md text-black bg-gray-200 font-bold hover:text-cyan-500 focus:outline-none "
                             aria-controls="mobile-menu"
                             aria-expanded="false"
                         > 
@@ -152,7 +152,7 @@ function Navbar () {
                     <div className="md:hidden" id="mobile-menu">
                         <div
                             ref={ref}
-                            className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 dark:bg-gray-800 "
+                            className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 "
                         >   
                             
                             <Link
