@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import React from 'react'
 
 import { Element } from "react-scroll"
@@ -9,20 +9,21 @@ import Pastor1 from '../public/pastor1.jpg'
 function Homepage () {
     return (
         <Element id="home" name="home">
-            <div className="min-h-screen  bg-black">
+            <div className="min-h-screen  ">
 
-                <div className='opacity-20' >
-                    <Image
-                        alt=""
-                        src={Pastor1}
-                        placeholder=""
-                        quality={100}
-                        fill
-                        sizes="100vw"
-                        style={{
-                        objectFit: 'cover',
-                        }}
-                    />
+            <div style={{
+                    zIndex: -1,
+                    position: "fixed",
+                    width: "100vw",
+                    height: "100vh"
+                    }}>
+                    <Image 
+                    className='brightness-50'
+                    src={Pastor1}
+                    alt=""
+                    layout="fill"
+                    objectFit='cover'
+                />
                 </div>
 
                 
