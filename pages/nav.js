@@ -12,7 +12,7 @@ function Navbar () {
 
 
 	return (
-        <nav className=" fixed w-full z-10 bg-white text-black">
+        <nav className=" fixed w-full z-10 bg-white">
             <div className="w-full">
                 <div className="flex items-center h-20 w-full">
                     <div className="flex items-center  mx-20  justify-between w-full">
@@ -83,6 +83,16 @@ function Navbar () {
                                     className="cursor-pointer  text-black hover:text-cyan-600 px-3 py-2 rounded-md text-sm font-medium "
                                 >
                                     Booking
+                                </Link>
+                                <Link
+                                    activeClass="shop"
+                                    to="shop"
+                                    smooth={true}
+                                    offset={50}
+                                    duration={500}
+                                    className="cursor-pointer  text-black hover:text-cyan-600 px-3 py-2 rounded-md text-sm font-medium "
+                                >
+                                    Shop
                                 </Link>
 
                             </div>
@@ -208,9 +218,19 @@ function Navbar () {
                                 duration={500}
                                 className="cursor-pointer hover:text-cyan-500 text-black  block px-3 py-2 rounded-md text-base font-medium text-center "
                             >
-                                Experiences
+                                Booking
                             </Link>
-
+                            <Link
+                                href="/shop"
+                                activeClass="shop"
+                                to="shop"
+                                smooth={true}
+                                offset={50}
+                                duration={500}
+                                className="cursor-pointer hover:text-cyan-500 text-black  block px-3 py-2 rounded-md text-base font-medium text-center "
+                            >
+                                Shop
+                            </Link>
                         </div>
                     </div>
                 )}
