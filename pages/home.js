@@ -29,11 +29,12 @@ function Homepage () {
                 
 
                 <div className='text-left  pt-60 px-10 '>
-                    <h1 className=' text-6xl font-bold text-white'>Pastor Jennifer Kofi</h1>
+                    <h1 className=' text-sm font-bold text-white'>Reverend</h1>
+                    <h1 className=' text-6xl font-bold text-white'>Jennifer Kofi</h1>
                     <h4 className='text-4xl font-md text-white pb-2 pt-5'>Singer/ Songwriter</h4>
-                    <p className='text-white text-md'>
+                    {/*<p className='text-white text-md'>
                         Pastor Jennifer Kofi is a Ghanaian worshiper, whose vocation is to point people to Christ through worship and the Word
-                    </p>
+                </p>*/}
 
                     
 
