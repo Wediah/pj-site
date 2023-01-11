@@ -12,7 +12,7 @@ function Navbar () {
 
 
 	return (
-        <nav className=" sticky w-full z-10 bg-transparent">
+        <nav className=" sticky w-full z-10 bg-yellow">
             <div className="w-full">
                 <div className="flex items-center h-20 w-full">
                     <div className="flex items-center  mx-20  justify-between w-full">
@@ -162,7 +162,7 @@ function Navbar () {
                     <div className="md:hidden" id="mobile-menu">
                         <div
                             ref={ref}
-                            className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 "
+                            className="bg-transparent px-2 pt-2 pb-3 space-y-1 sm:px-3 "
                         >   
                             
                             <Link
