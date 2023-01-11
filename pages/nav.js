@@ -25,7 +25,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:text-cyan-600 text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                className="cursor-pointer hover:text-cyan-600 text-white  px-3 py-2 rounded-md text-2xl font-extrabold "
                             >
                                 PJ
                             </Link>
@@ -162,7 +162,7 @@ function Navbar () {
                     <div className="md:hidden" id="mobile-menu">
                         <div
                             ref={ref}
-                            className="bg-transparent px-2 pt-2 pb-3 space-y-1 sm:px-3 "
+                            className="bg-white px-2 pt-2 pb-3 space-y-1 sm:px-3 "
                         >   
                             
                             <Link
