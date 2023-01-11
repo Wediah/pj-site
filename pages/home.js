@@ -9,24 +9,7 @@ import Pastor1 from '../public/pastor1.jpg'
 function Homepage () {
     return (
         <Element id="home" name="home">
-            <div className="min-h-screen overflow-x-hidden">
-
-            <div style={{
-                    zIndex: -1,
-                    position: "absolute",
-                    width: "100vw",
-                    height: "100vh"
-                    }}>
-                    <Image 
-                    className='brightness-50 '
-                    src={Pastor1}
-                    alt=""
-                    layout="fill"
-                    objectFit='cover'
-                />
-                </div>
-
-                
+            <div className="min-h-screen bg-no-repeat  bg-cover bg-c3nter bg-black" style={{ backgroundImage: 'url(pastor1.jpg)' }}>
 
                 <div className='text-left  pt-60 px-10 '>
                     <h1 className=' text-sm font-bold text-white'>Reverend</h1>
