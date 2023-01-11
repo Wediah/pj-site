@@ -12,13 +12,14 @@ function Homepage () {
             <div className="min-h-screen bg-no-repeat  bg-cover bg-center bg-black brightness-50" style={{ backgroundImage: 'url(pastor1.jpg)'}}>
 
                 <div className='text-left pt-28  lg:pt-40 px-16 '>
-                    <div className='gap-10 flex lg:flex-row'>
+                    <div className='gap-20 lg:flex'>
                         <div>
-                            <h1 className=' text-sm font-bold text-white'>Reverend</h1>
-                            <h1 className=' text-6xl font-bold text-white'>Jennifer Kofi</h1>
-                            <h4 className='text-4xl font-md text-white pb-2 pt-5'>Singer/ Songwriter</h4>
+                            <h1 className=' text-sm lg:text-lg font-bold text-white'>Reverend</h1>
+                            <h1 className=' text-6xl lg:text-9xl font-bold text-white'>Jennifer <br /> Kofi</h1>
+                            
                         </div>
-                        <div className=''>
+                        <div className=' p-10 my-10 flex-1 lg:pt-48'>
+                            <h4 className='text-4xl lg:text-6xl font-bold text-white pb-2 pt-5 overline overline-offset-8 '>Singer/ Songwriter</h4>
                             <p className='text-white text-2xl lg:text-4xl font-md'>
                             Pastor Jennifer Kofi is a Ghanaian worshiper, <br/> 
                             whose vocation is to point people to Christ <br/>
