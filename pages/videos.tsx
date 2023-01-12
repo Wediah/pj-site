@@ -22,7 +22,7 @@ function Videos() {
 
   return (
     <Element id='videos' name='videos'>
-    <div className="bg-white min-h-screen px-5 pt-10 bg-no-repeat pb-5 bg-cover bg-center " style={{ backgroundImage: 'url(pastor4.png)'}}>
+    <div className="bg-white min-h-screen bg-fixed px-5 pt-10 bg-no-repeat pb-5 bg-cover bg-center " style={{ backgroundImage: 'url(pastor4.png)'}}>
 
       <h3 className=' text-4xl text-white font-bold pt-10 lg:text-center lg:text-7xl text-left '>Videos</h3>
 
