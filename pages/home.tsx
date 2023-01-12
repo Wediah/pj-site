@@ -9,7 +9,7 @@ import { Element } from "react-scroll"
 function Homepage () {
     return (
         <Element id="home" name="home">
-            <div className="min-h-screen bg-no-repeat  bg-cover bg-center  bg-black " style={{ backgroundImage: 'url(pastor1.jpg)'}}>
+            <div className="min-h-screen bg-no-repeat  bg-cover bg-center bg-fixed bg-black " style={{ backgroundImage: 'url(pastor1.jpg)'}}>
 
                 <div className='text-left pt-48  lg:pt-40 px-16 '>
                     <div className='gap-20 lg:flex'>
