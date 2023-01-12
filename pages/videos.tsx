@@ -30,7 +30,7 @@ function Videos() {
         <div><YouTube videoId="EcqKKUdlFCU" opts={opts} onReady={onPlayerReady} /></div>
       </div>
 
-      <h1 className='text-white text-4xl lg:text-6xl text-center flex p-10 font-bold lg:ml-80 '>Visit my channel<BsArrowUpRight className='text-white'/></h1>
+      <h1 className='text-white text-2xl lg:text-4xl text-center flex p-10 font-bold lg:ml-80 '>Visit my channel<BsArrowUpRight className='text-white'/></h1>
 
     </div>
 
