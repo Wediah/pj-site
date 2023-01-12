@@ -1,6 +1,6 @@
 import React from 'react'
 
-function contact() {
+function Contact() {
   return (
     <div className="bg-white  px-10 pt-16 pb-32">
 
@@ -12,4 +12,4 @@ function contact() {
   )
 }
 
-export default contact
+export default Contact
