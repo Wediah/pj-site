@@ -20,9 +20,9 @@ function About () {
 
                     <div className='text-white lg:pt-20'>
                        <h1 className='text-sm font-light'>FOLLOW MY JOURNEY</h1> 
-                       <a href=''><div className='text-2xl lg:text-4xl font-bold cursor-pointer'>YOUTUBE</div></a>
-                       <a href=""><div className='text-2xl lg:text-4xl font-bold cursor-pointer'>INSTAGRAM</div></a>
-                       <a href=""><div className='text-2xl lg:text-4xl font-bold cursor-pointer'>FACEBOOK</div></a>
+                       <a href=''><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>YOUTUBE</button></a>
+                       <a href=""><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>INSTAGRAM</button></a>
+                       <a href=""><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>FACEBOOK</button></a>
                     </div>
                 </div>
                 
