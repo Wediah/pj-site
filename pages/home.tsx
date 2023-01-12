@@ -2,7 +2,7 @@ import Image from 'next/legacy/image'
 import React from 'react'
 
 import { Element } from "react-scroll"
-import Pastor1 from '../public/pastor1.jpg'
+
 
 
 

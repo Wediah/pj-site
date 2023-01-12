@@ -2,10 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Homepage from './home'
-import Landing from './home'
 import Navbar from './nav'
-import about from './about'
 import About from './about'
+import Videos from './videos'
 
 export default function Home() {
   return (
@@ -20,6 +19,7 @@ export default function Home() {
         <Navbar/>
         <Homepage/>
         <About/>
+        <Videos/>
         
       </main>
 
