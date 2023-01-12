@@ -18,11 +18,14 @@ function About () {
                     Reverend Jennifer Kofi is a Ghanaian worshiper, preacher and songwriter, whose vocation is to worship in spirit and truth and also point the world to Christ.  <br /> Rev. Jennifer has ministered across the Ghana and sharing the stage with the likes of Bethel Revival Music and Joe Mettle. <br /> In 2022, She also appeared on Bethel Revival Choir&aposs ENYO album.
                     </div>
 
-                    <div className='text-white lg:pt-20'>
+                    <div className='text-white lg:pt-20 '>
                        <h1 className='text-sm font-light'>FOLLOW MY JOURNEY</h1> 
-                       <a href=''><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>YOUTUBE</button></a>
-                       <a href=""><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>INSTAGRAM</button></a>
-                       <a href=""><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>FACEBOOK</button></a>
+                       <div>
+                        <a href=''><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>YOUTUBE</button></a> <br />
+                        <a href=""><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>INSTAGRAM</button></a> <br />
+                        <a href=""><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>FACEBOOK</button></a>
+                       </div>
+
                     </div>
                 </div>
                 
