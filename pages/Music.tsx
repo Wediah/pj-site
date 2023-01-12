@@ -7,7 +7,7 @@ import pod from '../public/podcast.png'
 
 function Music() {
   return (
-    <div className="bg-white  px-10 pt-10 bg-no-repeat pb-10 bg-cover bg-center " style={{ backgroundImage: 'url(pastor4.png)'}}>
+    <div className="bg-white  px-10 pt-16 bg-no-repeat pb-32 bg-cover bg-cente " style={{ backgroundImage: 'url(pj5.png)'}}>
         <h1 className=' text-4xl text-white font-bold pt-10 lg:text-center lg:text-7xl text-left '>Music <span className='text-2xl'>& Podcast</span></h1>
 
         <div className='flex gap-5 pt-16 lg:mx-96'>
