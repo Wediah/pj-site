@@ -19,7 +19,7 @@ function Homepage () {
                             
                         </div>
                         <div className=' lg:p-10 my-10 flex-1 lg:pt-48'>
-                            <h4 className='text-4xl lg:text-6xl font-bold text-white pb-2 pt-5 underline underline-offset-8 '>Singer/ Songwriter</h4>
+                            <h4 className='text-4xl lg:text-6xl font-bold text-white pb-2 pt-5 underline underline-offset-8 '>Worshipper/ Preacher/ Songwriter</h4>
                             <p className='text-white text-2xl lg:text-4xl font-md'>
                             Pastor Jennifer Kofi is a Ghanaian worshiper, <br/> 
                             whose vocation is to point people to Christ <br/>
