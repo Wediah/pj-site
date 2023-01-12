@@ -11,7 +11,7 @@ function Homepage () {
         <Element id="home" name="home">
             <div className="min-h-screen bg-no-repeat  bg-cover bg-center bg-fixed bg-black " style={{ backgroundImage: 'url(pastor1.jpg)'}}>
 
-                <div className='text-left pt-48  lg:pt-40 px-16 '>
+                <div className='text-left pt-48  lg:pt-40 px-16 backdrop-brightness-50 '>
                     <div className='gap-20 lg:flex'>
                         <div>
                             <h1 className=' text-sm lg:text-lg font-bold text-white'>Reverend</h1>
