@@ -1,6 +1,6 @@
 import React from 'react'
 import YouTube, { YouTubeProps } from 'react-youtube';
-import { BsArrowUpRight } from 'react-icons/bs'
+import { ImArrowUpRight2 } from 'react-icons/im'
 
 function Videos() {
     const onPlayerReady: YouTubeProps['onReady'] = (event) => {
@@ -30,7 +30,7 @@ function Videos() {
         <div><YouTube videoId="EcqKKUdlFCU" opts={opts} onReady={onPlayerReady} /></div>
       </div>
 
-      <h1 className='text-white text-2xl lg:text-4xl text-center flex p-10 font-bold lg:ml-80 '>Visit my channel<BsArrowUpRight className='text-white'/></h1>
+      <a href=""><h1 className='text-white text-2xl lg:text-4xl text-center flex p-10 font-bold lg:ml-80 group/edit cursor-pointer'>Visit my channel<ImArrowUpRight2 className='text-gray-500 group-hover/edit:-translate-y-2.5 group-hover/edit:text-white duration-75 align-middle'/></h1></a>
 
     </div>
 
