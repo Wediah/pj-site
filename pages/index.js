@@ -7,6 +7,7 @@ import About from './about'
 import Videos from './videos'
 import Music from './Music'
 import Contact from './contact'
+import Footer from './Footer'
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
         <Videos/>
         <Music/>
         <Contact/>
-        
+        <Footer/>
       </main>
 
       
