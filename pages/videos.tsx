@@ -1,6 +1,7 @@
 import React from 'react'
 import YouTube, { YouTubeProps } from 'react-youtube';
 import { ImArrowUpRight2 } from 'react-icons/im'
+import { Element } from 'react-scroll'
 
 function Videos() {
     const onPlayerReady: YouTubeProps['onReady'] = (event) => {
@@ -19,6 +20,7 @@ function Videos() {
 
 
   return (
+    <Element id='videos' name='videos'>
     <div className="bg-white min-h-screen px-10 pt-10 bg-no-repeat pb-5 bg-cover bg-center " style={{ backgroundImage: 'url(pastor4.png)'}}>
 
       <h3 className=' text-4xl text-white font-bold pt-10 lg:text-center lg:text-7xl text-left '>Videos</h3>
@@ -33,6 +35,7 @@ function Videos() {
       <a href=""><button className='text-white text-2xl lg:text-4xl text-center flex p-10 font-bold lg:ml-80 group/edit cursor-pointer'>Visit my channel<ImArrowUpRight2 className='text-gray-400 group-hover/edit:-translate-y-2.5 group-hover/edit:text-white duration-75 align-middle'/></button></a>
 
     </div>
+    </Element>
 
   )
 }

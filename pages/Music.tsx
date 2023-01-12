@@ -4,9 +4,11 @@ import apple from '../public/apple.png'
 import spot from '../public/spotify.png'
 import itunes from '../public/itunes.png'
 import pod from '../public/podcast.png'
+import { Element } from 'react-scroll'
 
 function Music() {
   return (
+    <Element name='music' id='music'>
     <div className="bg-white  px-10 pt-16 bg-no-repeat pb-32 bg-cover  " style={{ backgroundImage: 'url(pj5.png)'}}>
         <h1 className=' text-4xl text-white font-bold pt-10 lg:text-center lg:text-7xl text-left '>Music <span className='text-2xl'>& Podcast</span></h1>
 
@@ -19,6 +21,7 @@ function Music() {
 
 
     </div>
+    </Element>
   )
 }
 
