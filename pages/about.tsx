@@ -22,8 +22,8 @@ function About () {
                        <h1 className='text-sm font-light'>FOLLOW MY JOURNEY</h1> 
                        <div>
                         <a href='https://www.youtube.com/@jenniferkofi5603'><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>YOUTUBE</button></a> <br />
-                        <a href=""><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>INSTAGRAM</button></a> <br />
-                        <a href=""><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>FACEBOOK</button></a>
+                        <a href="https://www.instagram.com/ps.jennifer_kofi/?hl=en"><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>INSTAGRAM</button></a> <br />
+                        <a href="https://web.facebook.com/PsJenniferkofi/?_rdc=1&_rdr"><button className='text-2xl lg:text-4xl font-bold cursor-pointer'>FACEBOOK</button></a>
                        </div>
 
                     </div>
