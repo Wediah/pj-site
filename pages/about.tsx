@@ -6,10 +6,10 @@ import Image from 'next/image'
 function About () {
     return (
         <Element id="about" name="about">
-            <div className="bg-white min-h-screen px-10 pt-10 bg-no-repeat pb-5 bg-fixed bg-cover bg-center " style={{ backgroundImage: 'url(pastor2.jpg)'}}>
+            <div className="bg-white min-h-screen px-10  bg-no-repeat  bg-fixed bg-cover bg-center" style={{ backgroundImage: 'url(pastor2.jpg)'}}>
                 
-                
-                <h3 className=' text-4xl text-white font-bold pt-10 lg:text-center lg:text-7xl text-left'>About Me</h3>
+                <div className=' backdrop-blur-sm '>
+                <h3 className=' text-4xl text-white font-bold pt-20 lg:text-center lg:text-7xl text-left '>About Me</h3>
                 
                     
                 <div className=' lg:px-16 gap-20 lg:flex '>      
@@ -28,6 +28,9 @@ function About () {
 
                     </div>
                 </div>
+                </div>
+                
+                
                 
           
             
