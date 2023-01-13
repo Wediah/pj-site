@@ -6,9 +6,9 @@ import Image from 'next/image'
 function About () {
     return (
         <Element id="about" name="about">
-            <div className="bg-white  px-10  bg-no-repeat  bg-fixed bg-cover bg-center" style={{ backgroundImage: 'url(pastor2.jpg)'}}>
+            <div className="bg-white    bg-no-repeat  bg-fixed bg-cover bg-center" style={{ backgroundImage: 'url(pastor2.jpg)'}}>
                 
-                <div className='min-h-screen backdrop-blur-sm '>
+                <div className='min-h-screen backdrop-blur-sm px-10 pb-5 pt-10 '>
                 <h3 className=' text-4xl text-white font-bold pt-20 lg:text-center lg:text-7xl text-left '>About Me</h3>
                 
                     
