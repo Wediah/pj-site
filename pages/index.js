@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Jennifer Kofi</title>
         <meta name="description" content="Official website of Rev. Jennifer Kofi." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
