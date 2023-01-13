@@ -2,6 +2,8 @@ import React from 'react'
 import YouTube, { YouTubeProps } from 'react-youtube';
 import { ImArrowUpRight2 } from 'react-icons/im'
 import { Element } from 'react-scroll'
+import Image from 'next/image';
+import youtube from '../public/youtube.png'
 
 function Videos() {
     const onPlayerReady: YouTubeProps['onReady'] = (event) => {
@@ -32,12 +34,15 @@ function Videos() {
           <div><YouTube videoId="Hl1XPdCX-2c" opts={opts} onReady={onPlayerReady} /></div>
           <div><YouTube videoId="yOffjjIIiqU" opts={opts} onReady={onPlayerReady} /></div>
           <div><YouTube videoId="EcqKKUdlFCU" opts={opts} onReady={onPlayerReady} /></div>
-          <div><YouTube videoId="Hl1XPdCX-2c" opts={opts} onReady={onPlayerReady} /></div>
-          <div><YouTube videoId="yOffjjIIiqU" opts={opts} onReady={onPlayerReady} /></div>
+          <div><YouTube videoId="mMLVu2s5-GY" opts={opts} onReady={onPlayerReady} /></div>
+          <div><YouTube videoId="eE1AiUaDXLw" opts={opts} onReady={onPlayerReady} /></div>
           
         </div>
 
-        <a href=""><button className='text-white text-2xl lg:text-4xl text-center flex p-10 font-bold lg:ml-96 group/edit cursor-pointer '>Visit my channel<ImArrowUpRight2 className='text-gray-400 group-hover/edit:-translate-y-2.5 group-hover/edit:text-white duration-75 align-middle'/></button></a>
+        <a href="https://www.youtube.com/@jenniferkofi5603"><div className="text-center p-10"> <button className='group/edit'><Image src={youtube} width={50} alt='' className="pb-2 hover:transition group-hover/edit:-translate-y-4 duration-300 delay-150 mx-auto"/> <span className="text-white text-2xl lg:text-4xl font-bold cursor-pointer">Visit my channel</span></button></div></a>
+
+
+        
       </div>
 
 
