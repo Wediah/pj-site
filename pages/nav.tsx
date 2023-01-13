@@ -25,7 +25,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:text-cyan-600 lg:text-white text-black  px-3 py-2 rounded-md text-2xl font-extrabold "
+                                className="cursor-pointer hover:text-gray-600 lg:text-white text-black  px-3 py-2 rounded-md text-2xl font-extrabold "
                             >
                                 PJ
                             </Link>
@@ -40,7 +40,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-cyan-600 lg:text-white text-black px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:text-gray-600 lg:text-white text-black px-3 py-2 rounded-md text-sm font-medium "
                                 >
                                     Home
                                 </Link>
@@ -50,7 +50,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-cyan-600 lg:text-white text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:text-gray-600 lg:text-white text-black  px-3 py-2 rounded-md text-sm font-medium "
                                 >
                                     About Me
                                 </Link>
@@ -60,7 +60,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-cyan-600 lg:text-white text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:text-gray-600 lg:text-white text-black  px-3 py-2 rounded-md text-sm font-medium "
                                 >
                                     Videos
                                 </Link>
@@ -70,7 +70,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-cyan-600 lg:text-white text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:text-gray-600 lg:text-white text-black  px-3 py-2 rounded-md text-sm font-medium "
                                 >
                                     Music
                                 </Link>
@@ -80,7 +80,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer lg:text-white text-black hover:text-cyan-600 px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer lg:text-white text-black hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium "
                                 >
                                     Booking
                                 </Link>
@@ -90,7 +90,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer bg-white  text-black hover:text-cyan-600 px-5 py-2 rounded-full text-sm font-medium "
+                                    className="cursor-pointer bg-white  text-black hover:text-gray-600 px-5 py-2 rounded-full text-sm font-medium "
                                 >
                                     Shop
                                 </Link>
@@ -104,7 +104,7 @@ function Navbar () {
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             type="button"
-                            className=" inline-flex items-center justify-center p-2 rounded-md text-black bg-gray-200 font-bold hover:text-cyan-500 focus:outline-none "
+                            className=" inline-flex items-center justify-center p-2 rounded-md text-black bg-gray-200 font-bold hover:text-gray-500 focus:outline-none "
                             aria-controls="mobile-menu"
                             aria-expanded="false"
                         > 
@@ -172,7 +172,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:text-cyan-500 text-black block px-3 py-2 rounded-md text-base font-medium text-center "
+                                className="cursor-pointer hover:text-gray-500 text-black block px-3 py-2 rounded-md text-base font-medium text-center "
                             >
                                 Home
                             </Link>
@@ -183,7 +183,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:text-cyan-500 text-black block px-3 py-2 rounded-md text-base font-medium text-center "
+                                className="cursor-pointer hover:text-gray-500 text-black block px-3 py-2 rounded-md text-base font-medium text-center "
                             >
                                 About Me
                             </Link>
@@ -194,7 +194,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:text-cyan-500 text-black  block px-3 py-2 rounded-md text-base font-medium text-center "
+                                className="cursor-pointer hover:text-gray-500 text-black  block px-3 py-2 rounded-md text-base font-medium text-center "
                             >
                                 Videos
                             </Link>
@@ -205,7 +205,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:text-cyan-500 text-black block px-3 py-2 rounded-md text-base font-medium text-center "
+                                className="cursor-pointer hover:text-gray-500 text-black block px-3 py-2 rounded-md text-base font-medium text-center "
                             >
                                 Music
                             </Link>
@@ -216,7 +216,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:text-cyan-500 text-black  block px-3 py-2 rounded-md text-base font-medium text-center "
+                                className="cursor-pointer hover:text-gray-500 text-black  block px-3 py-2 rounded-md text-base font-medium text-center "
                             >
                                 Booking
                             </Link>
@@ -227,7 +227,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:text-cyan-500 text-black  block px-3 py-2 rounded-md text-base font-medium text-center "
+                                className="cursor-pointer hover:text-gray-500 text-black  block px-3 py-2 rounded-md text-base font-medium text-center "
                             >
                                 Shop
                             </Link>
