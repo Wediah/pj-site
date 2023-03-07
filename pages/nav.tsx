@@ -92,7 +92,7 @@ function Navbar () {
                                     duration={500}
                                     className="cursor-pointer bg-white  text-black hover:text-gray-600 px-5 py-2 rounded-full text-sm font-medium "
                                 >
-                                    Shop
+                                    Donate
                                 </Link>
 
                             </div>
@@ -229,7 +229,7 @@ function Navbar () {
                                 duration={500}
                                 className="cursor-pointer hover:text-gray-500 text-black  block px-3 py-2 rounded-md text-base font-medium text-center "
                             >
-                                Shop
+                                Donate
                             </Link>
                         </div>
                     </div>
