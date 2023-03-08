@@ -40,7 +40,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-gray-600 lg:text-white text-black px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:bg-white hover:text-black lg:text-white text-black px-3 py-2 rounded-full text-sm font-medium "
                                 >
                                     Home
                                 </Link>
@@ -50,7 +50,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-gray-600 lg:text-white text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:bg-white hover:text-black lg:text-white text-black  px-3 py-2 rounded-full text-sm font-medium "
                                 >
                                     About Me
                                 </Link>
@@ -60,7 +60,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-gray-600 lg:text-white text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:bg-white hover:text-black lg:text-white text-black  px-3 py-2 rounded-full text-sm font-medium "
                                 >
                                     Videos
                                 </Link>
@@ -70,7 +70,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:text-gray-600 lg:text-white text-black  px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer hover:bg-white hover:text-black lg:text-white text-black  px-3 py-2 rounded-full text-sm font-medium "
                                 >
                                     Music
                                 </Link>
@@ -80,7 +80,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer lg:text-white text-black hover:text-gray-600 px-3 py-2 rounded-md text-sm font-medium "
+                                    className="cursor-pointer lg:text-white text-black hover:bg-white hover:text-black px-3 py-2 rounded-full text-sm font-medium "
                                 >
                                     Booking
                                 </Link>
@@ -90,7 +90,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer bg-white  text-black hover:text-gray-600 px-5 py-2 rounded-full text-sm font-medium "
+                                    className="cursor-pointer bg-white  text-black hover:text-white hover:bg-black px-5 py-2 rounded-full text-sm font-medium "
                                 >
                                     Donate
                                 </Link>
