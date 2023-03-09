@@ -2,7 +2,9 @@ import React from 'react'
 
 function donation() {
   return (
-    <div>donation</div>
+    <div className='bg-white'>
+
+    </div>
   )
 }
 
