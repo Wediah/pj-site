@@ -25,7 +25,7 @@ function Navbar () {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
-                                className="cursor-pointer hover:bg-white hover:text-black lg:text-white text-black  px-3 py-2 rounded-md text-2xl font-extrabold "
+                                className="cursor-pointer  lg:text-white text-black  px-3 py-2 rounded-md text-2xl font-extrabold "
                             >
                                 PJ
                             </Link>
