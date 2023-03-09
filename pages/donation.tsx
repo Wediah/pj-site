@@ -1,11 +1,17 @@
 import React from 'react'
+import Navbar from './nav'
 
-function donation() {
+function Donation() {
   return (
-    <div className='bg-white'>
+    <>
+    <main>
+      <Navbar/>
+      <div className='bg-white'>
 
-    </div>
+      </div>
+    </main>
+    </>
   )
 }
 
-export default donation
+export default Donation
