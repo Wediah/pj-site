@@ -1,7 +1,8 @@
 import React, { useState } from "react"
 import { Transition } from '@headlessui/react'
 import { Link } from "react-scroll"
-
+import Router from "next/router";
+import router from "next/router";
 
 
 
@@ -90,7 +91,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer bg-white  text-black hover:text-white hover:bg-black px-5 py-2 rounded-full text-sm font-medium "
+                                    className="cursor-pointer bg-white  text-black hover:text-white hover:bg-black px-5 py-2 rounded-full text-sm font-medium " onClick={() => router.push('/donation')}
                                 >
                                     Donate
                                 </Link>
