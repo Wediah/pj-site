@@ -41,7 +41,7 @@ function Navbar () {
                                     smooth={true}
                                     offset={50}
                                     duration={500}
-                                    className="cursor-pointer hover:bg-white hover:text-black lg:text-white text-black px-3 py-2 rounded-full text-sm font-medium "
+                                    className="cursor-pointer hover:bg-white hover:text-black lg:text-white text-black px-3 py-2 rounded-full text-sm font-medium " onClick={() => router.push('/')}
                                 >
                                     Home
                                 </Link>

@@ -4,9 +4,9 @@ import Navbar from './nav'
 function Donation() {
   return (
     <>
-    <main>
+    <main className=''>
       <Navbar/>
-      <div className='bg-white'>
+      <div className='bg-black'>
 
       </div>
     </main>
