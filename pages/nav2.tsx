@@ -2,7 +2,7 @@ import React from 'react'
 
 function nav2() {
   return (
-    <div>
+    <div className='flex '>
         <div>
             <div>
                 <div>
