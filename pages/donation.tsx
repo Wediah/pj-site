@@ -7,7 +7,9 @@ function Donation() {
     <main className=''>
       <Navbar/>
       <div className='bg-black'>
+        <div className='bg-black '>
 
+        </div>
       </div>
     </main>
     </>
