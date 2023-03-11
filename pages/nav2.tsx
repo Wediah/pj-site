@@ -6,7 +6,8 @@ function nav2() {
         <div>
             <div>
                 <div>
-                    
+                    <button>Home</button>
+                    <button>Donations</button>
                 </div>
             </div>
         </div>
