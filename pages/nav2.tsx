@@ -7,7 +7,7 @@ function nav2() {
             <div>
                 <button>PJ</button>
                 <div>
-                    <button>Home</button>
+                    <button className='bg-white text-wite'>Home</button>
                     <button>Donations</button>
                 </div>
             </div>
