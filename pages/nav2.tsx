@@ -5,7 +5,7 @@ function nav2() {
     <div className='flex '>
         <div>
             <div>
-                <button>PJ</button>
+                <button className="Bg-blue">PJ</button>
                 <div>
                     <button className='bg-white text-wite'>Home</button>
                     <button>Donations</button>
